@@ -1,0 +1,31 @@
+{
+  "homebrew-inst": {
+    "user": "ringo"
+  },
+  "run_list": [
+    "dmg",
+    "osxzip",
+    "homebrew-inst",
+//    "java",
+    "homebrew",
+    "base-command",
+//    "xcode-clt",
+    "recipe[ua101]",
+    "recipe[google_japanese_input]",
+    "recipe[chrome]",
+    "recipe[alfred]",
+    "recipe[iterm2]",
+    "recipe[better_touch_tool]",
+    "recipe[source_tree]",
+    "recipe[lastpass]",
+    "recipe[xtra_finder]",
+    "recipe[app_cleaner]",
+    "recipe[evernote]",
+    "recipe[skitch]",
+    "recipe[textmate]",
+    "recipe[mou]",
+    "recipe[install_fonts]",
+    "recipe[sparrow]",
+    "recipe[cache_clear]"
+  ]
+}
