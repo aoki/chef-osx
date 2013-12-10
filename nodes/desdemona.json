@@ -26,6 +26,8 @@
     "recipe[mou]",
     "recipe[install_fonts]",
     "recipe[sparrow]",
-    "recipe[cache_clear]"
+    "recipe[intellij]",
+    "recipe[android-sdk]"
+//    "recipe[cache_clear]"
   ]
 }
