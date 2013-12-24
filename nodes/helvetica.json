@@ -1,7 +1,8 @@
 {
   "run_list": [
     "dmg",
-    "chrome",
-    "sparrow"
+//    "chrome",
+//    "sparrow",
+    "role[android]"
   ]
 }

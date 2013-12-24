@@ -7,11 +7,11 @@
 # All rights reserved - Do Not Redistribute
 #
 
-dmg_package "Java 7 Update 45" do
-  dmg_name  "jre-7u45-macosx-x64"
-  type  "pkg"
-  source  "http://sdlc-esd.sun.com/ESD6/JSCDL/jdk/7u45-b18/jre-7u45-macosx-x64.dmg?AuthParam=1385821908_8cde29c762dc369715a520e5e50dd8d4&GroupName=JSC&FilePath=/ESD6/JSCDL/jdk/7u45-b18/jre-7u45-macosx-x64.dmg&File=jre-7u45-macosx-x64.dmg&BHost=javadl.sun.com"
-  checksum "b7626e55ceb189a694ae446ebd2bc0a195030417c3ea7c009f1a9adb422b4a10"
-  action  :install
-#  not_if {}
+dmg_package "JavaForOSX" do
+  dmg_name  "JavaForOSX2013-05"
+  volumes_dir "Java for OS X 2013-005"
+  type      "pkg"
+  source    "http://support.apple.com/downloads/DL1572/ja_JP/JavaForOSX2013-05.dmg"
+  checksum  "81e1155e44b2c606db78487ca1a02e31dbb3cfbf7e0581a4de3ded9e635a704e"
+  action    :install
 end

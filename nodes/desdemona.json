@@ -27,7 +27,10 @@
     "recipe[install_fonts]",
     "recipe[sparrow]",
     "recipe[intellij]",
-    "recipe[android-sdk]"
+    "recipe[android-sdk]",
+    // role Vagrant
+    "recipe[virtual_box]",
+    "recipe[vagrant]"
 //    "recipe[cache_clear]"
   ]
 }

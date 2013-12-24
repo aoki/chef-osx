@@ -1,0 +1,12 @@
+{
+  "name": "android",
+  "default_attributes" : {},
+  "override_attributes" : {},
+  "json_class": "Chef::Role",
+  "description": "",
+  "chef_type": "role",
+  "run_list": [
+    "recipe[android-sdk]",
+    "recipe[intellij]"
+  ]
+}
