@@ -9,6 +9,8 @@
 //    "java",
     "homebrew",
     "base-command",
+    "recipe[scala]",
+    "recipe[sbt]",
 //    "xcode-clt",
     "recipe[ua101]",
     "recipe[google_japanese_input]",
@@ -30,7 +32,7 @@
     "recipe[android-sdk]",
     // role Vagrant
     "recipe[virtual_box]",
-    "recipe[vagrant]"
-//    "recipe[cache_clear]"
+    "recipe[vagrant]",
+    "recipe[cache_clear]"
   ]
 }
