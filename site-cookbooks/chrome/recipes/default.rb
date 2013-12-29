@@ -1,0 +1,16 @@
+#
+# Cookbook Name:: chrome
+# Recipe:: default
+#
+# Copyright 2013, YOUR_COMPANY_NAME
+#
+# All rights reserved - Do Not Redistribute
+#
+
+dmg_package "Google Chrome" do
+  dmg_name "googlechrome"
+  source "https://dl-ssl.google.com/chrome/mac/stable/GGRM/googlechrome.dmg"
+  checksum "7daa2dc5c46d9bfb14f1d7ff4b33884325e5e63e694810adc58f14795165c91a"
+  action :install
+  not_if {File.exists?("/Applications/Google Chrome.app")}
+end
